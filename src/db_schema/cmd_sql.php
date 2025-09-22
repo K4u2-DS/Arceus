@@ -6,7 +6,7 @@ $criarDB = 'CREATE DATABASE IF NOT EXISTS '.DB_Prova.';';
 $usarDB = 'USE '.DB_Prova.';';
 
 $crearTabela = "
-    CREATE TABLE IF NOT EXISTS Jogos (
+    CREATE TABLE IF NOT EXISTS jogos (
         id INT AUTO_INCREMENT PRIMARY KEY,
         titulo VARCHAR(255) NOT NULL,
         descricao TEXT,
