@@ -19,7 +19,7 @@ $crearTabela = "
 ";
 
 $insertDados = "
-  INSERT INTO Jogos (titulo, descricao, lancamento, tipo, `plataforma`) VALUES
+  INSERT INTO jogos (titulo, descricao, lancamento, tipo, `plataforma`) VALUES
     ('The Legend of Zelda: Tears of the Kingdom', 'Continuação épica de Breath of the Wild.', '2023-05-12', 'Aventura', 'ambos'),
     ('Super Mario Odyssey', 'Mario em uma jornada por vários mundos usando seu chapéu mágico.', '2017-10-27', 'Plataforma', 'ambos'),
     ('Animal Crossing: New Horizons', 'Simulador de vida em uma ilha paradisíaca.', '2020-03-20', 'Simulação', 'ambos'),
